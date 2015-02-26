@@ -21,9 +21,12 @@ A set of files are required in order to proper build and run this project, below
                             /relevants xmls...
                   /textDescDafitiPosthaus.xml
 
+The number of products to be indexed can configured in SearchEngine.h file.
 
 
 > $g++ -std=c++0x src/SearchEngine.cpp src/Document.cpp src/Term.cpp src/QueryDescriptor.cpp src/Relevant.cpp src/Produto.cpp -I /usr/include/libxml2 -lxml2 -g -o mysearchengine
+
+
 
 #Run
 
